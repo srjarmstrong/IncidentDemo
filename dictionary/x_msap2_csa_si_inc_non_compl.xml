@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" label="Non Compliance Notice" max_length="40" name="x_msap2_csa_si_inc_non_compl" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Event Label" max_length="40" name="event_label" type="string"/>
+        <element label="Inspection" max_length="32" name="inspection" reference="x_msap2_csa_si_inspection" type="reference"/>
+        <element choice="1" dependent="non_compliance_type" dependent_on_field="non_compliance_type" label="Non  Compliance Sub Type" max_length="40" name="non_compliance_sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="2" label="Failure to comply with Condition" sequence="0" value="1"/>
+                <element dependent_value="1" label="Failure to Report – AEMR" sequence="0" value="2"/>
+                <element dependent_value="3" label="Incident" sequence="0" value="3"/>
+                <element dependent_value="2" label="Failure to comply with direction" sequence="1" value="4"/>
+                <element dependent_value="1" label="Failure to make payment" sequence="1" value="5"/>
+            </choice>
+        </element>
+        <element choice="1" label="Non Compliance Type" max_length="40" name="non_compliance_type" type="choice">
+            <choice>
+                <element label="Time Related" sequence="0" value="1"/>
+                <element label="Non-Time Related" sequence="1" value="2"/>
+                <element label="Incident" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Responsible Officer" max_length="32" name="responsible_officer" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Title" max_length="32" name="title" reference="x_msap2_csa_si_title" reference_qual="javascript:'u_mine=' + current.inspection.safety_incident.mine;" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="responsible_officer"/>
+        </index>
+        <index name="index2">
+            <element name="title"/>
+        </index>
+        <index name="index3">
+            <element name="inspection"/>
+        </index>
+    </element>
+</database>

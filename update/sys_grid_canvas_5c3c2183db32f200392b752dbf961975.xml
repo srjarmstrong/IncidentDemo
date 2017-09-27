@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_grid_canvas" unload_date="2017-09-27 05:00:40">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</legacy_page>
+        <name>PA Incident Process KPIs</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5c3c2183db32f200392b752dbf961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Incident Process KPIs</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_grid_canvas_5c3c2183db32f200392b752dbf961975</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 14:29:50</sys_updated_on>
+        <related_items_node>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_widget>
+                <posx>8</posx>
+                <posy>11</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>283ce583db32f200392b752dbf961982</sys_id>
+                <sys_mod_count>65</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_283ce583db32f200392b752dbf961982</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                <width>4</width>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone2</dropzone>
+                        <offset>1</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>1386ae55eb7302001e68286b1206fee8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_widget>
+                                <posx>8</posx>
+                                <posy>11</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>283ce583db32f200392b752dbf961982</sys_id>
+                                <sys_mod_count>65</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_283ce583db32f200392b752dbf961982</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:10</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents reassigned at least once</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee8</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>39ea9961ff2302001e68ffffffffffd6</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1386ae55eb7302001e68286b1206fee8</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone0</dropzone>
+                        <offset>1</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>0786ae55eb7302001e68286b1206fedb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_widget>
+                                <posx>0</posx>
+                                <posy>11</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>503ce583db32f200392b752dbf96196c</sys_id>
+                                <sys_mod_count>40</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_503ce583db32f200392b752dbf96196c</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4386ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4786ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4b86ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4f86ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>c386ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>13166e55eb7302001e68286b1206fef3</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>c786ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>cb86ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:00</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>cf86ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents closed without reassignment</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fedc</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone1</dropzone>
+                        <offset>1</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>9b86ae55eb7302001e68286b1206fee1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_widget>
+                                <posx>4</posx>
+                                <posy>11</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>503ce583db32f200392b752dbf961971</sys_id>
+                                <sys_mod_count>54</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_503ce583db32f200392b752dbf961971</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:05</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>77f0dd21ff2302001e68ffffffffffc8</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents that are overdue</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee2</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone0</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>8386ae55eb7302001e68286b1206fed9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_widget>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>543ce583db32f200392b752dbf96196a</sys_id>
+                                <sys_mod_count>21</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_543ce583db32f200392b752dbf96196a</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4386ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>c7afc921ff2302001e68ffffffffff86</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4386ae55eb7302001e68286b1206fedb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>4786ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:45</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>4b86ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:34:45</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4b86ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>4f86ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:45</sys_updated_on>
+                                <value>% of new critical incidents</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>4f86ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>c386ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:45</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>c786ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:45</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>c786ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:45</sys_created_on>
+                                <sys_id>cb86ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:45</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>cb86ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>2</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:55:05</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>cf86ae55eb7302001e68286b1206fed9</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>cf86ae55eb7302001e68286b1206feda</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone1</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>1b86ae55eb7302001e68286b1206fedf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_widget>
+                                <posx>4</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>943ce583db32f200392b752dbf96196f</sys_id>
+                                <sys_mod_count>42</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_943ce583db32f200392b752dbf96196f</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>Average age open incidents</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>298f266ad7223100b96d45a3ce6103b2</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee1</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:34:50</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee0</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone2</dropzone>
+                        <offset>0</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>9f86ae55eb7302001e68286b1206fee5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_widget>
+                                <posx>8</posx>
+                                <posy>0</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>a43ce583db32f200392b752dbf961974</sys_id>
+                                <sys_mod_count>20</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_a43ce583db32f200392b752dbf961974</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:34:55</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>Average close time of incidents</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>f304e251eb7302001e68286b1206fe22</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee6</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee7</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone0</dropzone>
+                        <offset>2</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>9786ae55eb7302001e68286b1206fedd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_widget>
+                                <posx>0</posx>
+                                <posy>22</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>d83ce583db32f200392b752dbf96196d</sys_id>
+                                <sys_mod_count>69</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_d83ce583db32f200392b752dbf96196d</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>056ad171ff2302001e68ffffffffffd5</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:16</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents resolved same day opened</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fedf</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fedd</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fede</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone1</dropzone>
+                        <offset>2</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>1f86ae55eb7302001e68286b1206fee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_widget>
+                                <posx>4</posx>
+                                <posy>22</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>d83ce583db32f200392b752dbf961972</sys_id>
+                                <sys_mod_count>74</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_d83ce583db32f200392b752dbf961972</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:21</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents closed by self-service</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee4</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>d8ad1971ff2302001e68ffffffffff16</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206fee5</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206fee3</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal action="INSERT_OR_UPDATE">
+                        <dropzone>dropzone2</dropzone>
+                        <offset>2</offset>
+                        <page display_value="PA Incident Process KPIs">b1d76fc5ff2302001e68fffffffffffe</page>
+                        <summary/>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                        <sys_id>9386ae55eb7302001e68286b1206feea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                        <related_items_node>
+                            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                                <height>11</height>
+                                <portal_widget display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_widget>
+                                <posx>8</posx>
+                                <posy>22</posy>
+                                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                                <sys_customer_update>false</sys_customer_update>
+                                <sys_id>e03ce583db32f200392b752dbf961984</sys_id>
+                                <sys_mod_count>77</sys_mod_count>
+                                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                                <sys_policy/>
+                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                                <sys_update_name>sys_grid_canvas_pane_e03ce583db32f200392b752dbf961984</sys_update_name>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                                <width>4</width>
+                            </sys_grid_canvas_pane>
+                        </related_items_node>
+                        <related_items_node>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>sys_id</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>305e35b1ff2302001e68fffffffffff4</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>current_page</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5386ae55eb7302001e68286b1206feec</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>b1d76fc5ff2302001e68fffffffffffe</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>renderer</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5786ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_size</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>3</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-19 10:35:26</sys_updated_on>
+                                <value>12pt</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>subscriber_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5b86ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>type</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>score</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>5f86ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>true</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title_align</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d386ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>center</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>filter_indicator</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>help_text_window</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>d786ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>pa_widget_description</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>show_border</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>false</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>publisher_widget</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>db86ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>title</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206feea</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value>% of incidents not solved</value>
+                            </sys_portal_preferences>
+                            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                                <name>widget_height</name>
+                                <portal_section display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_section>
+                                <sys_created_by>admin</sys_created_by>
+                                <sys_created_on>2015-11-17 12:44:46</sys_created_on>
+                                <sys_id>df86ae55eb7302001e68286b1206feeb</sys_id>
+                                <sys_mod_count>0</sys_mod_count>
+                                <sys_updated_by>admin</sys_updated_by>
+                                <sys_updated_on>2015-11-17 12:44:46</sys_updated_on>
+                                <value/>
+                            </sys_portal_preferences>
+                        </related_items_node>
+                    </sys_portal>
+                </related_items_node>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">0786ae55eb7302001e68286b1206fedb</portal_widget>
+                <posx>0</posx>
+                <posy>11</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>503ce583db32f200392b752dbf96196c</sys_id>
+                <sys_mod_count>40</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_503ce583db32f200392b752dbf96196c</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">9b86ae55eb7302001e68286b1206fee1</portal_widget>
+                <posx>4</posx>
+                <posy>11</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>503ce583db32f200392b752dbf961971</sys_id>
+                <sys_mod_count>54</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_503ce583db32f200392b752dbf961971</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">8386ae55eb7302001e68286b1206fed9</portal_widget>
+                <posx>0</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>543ce583db32f200392b752dbf96196a</sys_id>
+                <sys_mod_count>21</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_543ce583db32f200392b752dbf96196a</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_widget>
+                <posx>4</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>943ce583db32f200392b752dbf96196f</sys_id>
+                <sys_mod_count>42</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_943ce583db32f200392b752dbf96196f</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">9f86ae55eb7302001e68286b1206fee5</portal_widget>
+                <posx>8</posx>
+                <posy>0</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>a43ce583db32f200392b752dbf961974</sys_id>
+                <sys_mod_count>20</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_a43ce583db32f200392b752dbf961974</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">9786ae55eb7302001e68286b1206fedd</portal_widget>
+                <posx>0</posx>
+                <posy>22</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>d83ce583db32f200392b752dbf96196d</sys_id>
+                <sys_mod_count>69</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_d83ce583db32f200392b752dbf96196d</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">1f86ae55eb7302001e68286b1206fee3</portal_widget>
+                <posx>4</posx>
+                <posy>22</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>d83ce583db32f200392b752dbf961972</sys_id>
+                <sys_mod_count>74</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_d83ce583db32f200392b752dbf961972</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+            <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+                <height>11</height>
+                <portal_widget display_value="Created 17/11/2015 23:44:46">9386ae55eb7302001e68286b1206feea</portal_widget>
+                <posx>8</posx>
+                <posy>22</posy>
+                <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+                <sys_customer_update>false</sys_customer_update>
+                <sys_id>e03ce583db32f200392b752dbf961984</sys_id>
+                <sys_mod_count>77</sys_mod_count>
+                <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+                <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+                <sys_policy/>
+                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+                <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+                <sys_update_name>sys_grid_canvas_pane_e03ce583db32f200392b752dbf961984</sys_update_name>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-05-22 14:30:24</sys_updated_on>
+                <width>4</width>
+            </sys_grid_canvas_pane>
+        </related_items_node>
+    </sys_grid_canvas>
+</record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_msap2_csa_si.AEMRGeneratorAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AEMRGeneratorAjax</name>
+        <script><![CDATA[var AEMRGeneratorAjax = Class.create();
+AEMRGeneratorAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	generateReportAsyncLetter: function() {
+		return this._passthrough('_generateReportAsyncLetter', ['aemrId','reportTemplate']);
+	},
+	_generateReportAsyncLetter: function(aemrId,reportTemplate) 
+	{
+
+		var gr = new GlideRecord('x_msap2_csa_si_aemr_reminder_letter');
+		
+		if (gr.get(aemrId)) 
+		{
+
+			
+			// Generate the report
+			var grReportDateSet = new GlideRecord('x_msap2_report_gen_report_data_set');
+			grReportDateSet.get(reportTemplate);
+			
+			var dataSetName = grReportDateSet.getValue('name');
+			
+			var dataSourceQuery = 'sys_id=' + gr.sys_id;
+			var nowDate = new GlideDate().getDisplayValue();
+			var orderBy = 'number';
+			var fileName = 'AEMR-' + gr.number + '-' + nowDate + '.pdf';
+			var attachmentTargetTable = 'x_msap2_csa_si_aemr_reminder_letter';
+			var attachmentTargetId = gr.sys_id;
+			
+			
+			
+			var mgr = new x_msap2_report_gen.ReportGenerator();
+			
+			var result = mgr.generateReportAsync(dataSetName, dataSourceQuery, orderBy, fileName, attachmentTargetTable, attachmentTargetId);
+			
+			if (result && result.success) 
+			{
+				// Update the notice
+				gr.status = 2;
+				gr.update();
+			} 
+		}
+		return result;
+	},
+	checkReportAsyncProgress: function() {
+		return this._passthrough('_checkReportAsyncProgress', ['callbackToken']);
+	},
+	_checkReportAsyncProgress: function(callbackToken) {
+		var mgr = new x_msap2_report_gen.ReportGenerator();
+		return mgr.checkReportAsyncProgress(callbackToken);
+	},
+	_passthrough: function(call, parms) {
+		var args = [];
+		var mgr = this;
+		for (var i=0; i < parms.length; i++) {
+			var parmValue;
+			if (parms[i] && typeof(parms[i].staticValue) != 'undefined')
+				parmValue = parms[i].staticValue;
+			else {
+				parmValue = this.getParameter('sysparm_' + (parms[i].name || parms[i])) + '';
+				if (parms[i].format) parmValue = parms[i].format(parmValue);
+			}
+			args.push(parmValue);
+		}
+		
+		var answer = (new global.JSON()).encode(mgr[call].apply(mgr, args));
+
+		return answer;
+	},
+    type: 'AEMRGeneratorAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-27 03:29:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1380aecc4f294f00db2b5a701310c701</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AEMRGeneratorAjax</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_script_include_1380aecc4f294f00db2b5a701310c701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-27 03:46:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

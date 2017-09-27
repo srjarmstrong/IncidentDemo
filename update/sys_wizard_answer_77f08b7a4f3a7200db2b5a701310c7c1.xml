@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Injury</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Injury</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">0e94f086db323200392b752dbf9619f5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 02:01:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77f08b7a4f3a7200db2b5a701310c7c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Injury</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_wizard_answer_77f08b7a4f3a7200db2b5a701310c7c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 02:01:52</sys_updated_on>
+        <table/>
+        <target_url>x_msap2_csa_si_injury.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

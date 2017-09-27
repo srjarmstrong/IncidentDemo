@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_notif_service_provider">
+    <cmn_notif_service_provider action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <construction_script>current.phone_number + '@serviceprovider.com'</construction_script>
+        <email_prefix/>
+        <email_suffix>onlinesms.telstra.com</email_suffix>
+        <im_provider>Yahoo</im_provider>
+        <name>Telstra SMS</name>
+        <script/>
+        <sys_class_name>cmn_notif_service_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-21 03:57:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c81de2e4fbe3200db2b5a701310c73b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Telstra SMS</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>cmn_notif_service_provider_7c81de2e4fbe3200db2b5a701310c73b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-21 03:57:11</sys_updated_on>
+        <type>SMS</type>
+        <use_construction_script>false</use_construction_script>
+        <use_custom_script>false</use_custom_script>
+    </cmn_notif_service_provider>
+</record_update>

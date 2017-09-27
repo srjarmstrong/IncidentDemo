@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Generate AEMR Letter</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-05-22 06:53:09</run_start>
+        <run_time>1969-12-31 14:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var reportTemplate = '821a973a4f7a7200db2b5a701310c709';
+
+var gr = new GlideRecord('x_msap2_csa_si_m2m_titles_title_holders');
+gr.addQuery('title.u_aemr_next_due','=','2017-06-01');
+//gr.addNullQuery('reminder_last_sent').addOrCondition('reminder_last_sent','<',gtReminderSince);
+gr.query();
+
+while (gr.next()) 
+{
+	// get recipient from title holder
+	var grTitleHolder = new GlideRecord('x_msap2_csa_si_title_holder');
+	grTitleHolder.get(gr.title_holder);
+	var email = '';
+	
+	if (grTitleHolder.type == 'Individual')
+	{
+		email = 	grTitleHolder.user;
+	}
+	if (grTitleHolder.type == 'Company')
+	{
+		email = 	grTitleHolder.company.contact;
+	}
+	
+	/* Create a placeholder for the report */
+	var grReport = new GlideRecord('x_msap2_csa_si_aemr_reminder_letter');
+	grReport.initialize();
+	
+	var reportId = grReport.insert();
+	// meta data
+	grReport.recipient = email;
+	grReport.name =    grReport.number + ' - AEMR Reminder Letter';
+	grReport.title_holder =  gr.title_holder;
+	grReport.title = gr.title;
+	grReport.type = '3d20c5f9c3a03000c111113e5bba8f0b';
+	grReport.classification = '15d7566c0a0a2c3e6d2773647b4a3607';
+	grReport.audience = '15d451c80a0a2c3e38dc5b3dcc739840';
+	grReport.state = 'draft';
+	grReport.sent_reminder = false;
+	//grReport.name_format='9a000c500a0a2c3e45ca05b3d762809b';
+    //grReport.revision_format='0.1';
+    //grReport.auto_increment_revision=true;
+	grReport.update();
+
+	/*
+	var grDocRevision = new GlideRecord('dms_document_revision');
+	grDocRevision.initialize();
+	grDocRevision.revision_number = 1;
+	grDocRevision.document = reportId;
+	grDocRevision.stage='draft';
+	//grDocRevision.author = gs.getUserID();
+	//grDocRevision.owner= gs.getUserID();
+	var docRevId = grDocRevision.insert();
+	*/
+
+
+	// Generate the report
+	var grReportDateSet = new GlideRecord('x_msap2_report_gen_report_data_set');
+	grReportDateSet.get(reportTemplate);
+
+	var dataSetName = grReportDateSet.getValue('name');
+
+	var dataSourceQuery = 'sys_id=' + gr.sys_id;
+	var nowDate = new GlideDate().getDisplayValue();
+	var orderBy = 'number';
+	var fileName = 'AEMR-' + grReport.number + '-' + nowDate + '.pdf';
+	var attachmentTargetTable = 'x_msap2_csa_si_aemr_reminder_letter';
+	var attachmentTargetId = reportId;
+
+	var mgr = new x_msap2_report_gen.ReportGenerator();
+
+	var result = mgr.generateReportAsync(dataSetName, dataSourceQuery, orderBy, fileName, attachmentTargetTable, attachmentTargetId);
+
+	if (result && result.success) 
+	{
+		// Update the doc revision
+		grReport.update();
+	} 
+	else
+	{
+		grReport.deleteRecord();
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 06:53:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a6a308cf4fba7200db2b5a701310c7ef</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Generate AEMR Letter</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sysauto_script_a6a308cf4fba7200db2b5a701310c7ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-27 03:58:51</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Mine Operator" language="en" table="x_msap2_csa_si_mine_operator">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Mine Operator</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_mine_operator</name>
+            <plural>Mine Operators</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 08:51:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b735d3ae4f327200db2b5a701310c719</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mine Operator</sys_name>
+            <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+            <sys_update_name>sys_documentation_x_msap2_csa_si_mine_operator__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 08:51:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

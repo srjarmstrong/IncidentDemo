@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmn_location" label="Mine" max_length="40" name="x_msap2_csa_si_mine" type="collection">
+        <element choice="1" label="Commodity" max_length="40" name="commodity" type="choice">
+            <choice>
+                <element label="Coal" sequence="0" value="Coal"/>
+                <element label="Mineral Sands" sequence="1" value="Mineral Sands"/>
+                <element label="Gold" sequence="2" value="Gold"/>
+                <element label="Copper" sequence="3" value="Copper"/>
+                <element label="Nickel" sequence="4" value="Nickel"/>
+            </choice>
+        </element>
+        <element label="Mine Operator" max_length="32" name="mine_operator" reference="x_msap2_csa_si_mine_operator" type="reference"/>
+        <element choice="1" label="Mine Type" max_length="40" name="mine_type" type="choice">
+            <choice>
+                <element label="Open Cut" sequence="0" value="Open Cut"/>
+                <element label="Underground" sequence="1" value="Underground"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_short_descr" type="string"/>
+        <index name="index">
+            <element name="mine_operator"/>
+        </index>
+    </element>
+</database>

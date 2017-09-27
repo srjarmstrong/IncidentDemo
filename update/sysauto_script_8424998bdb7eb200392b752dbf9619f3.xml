@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Generate AEMR Non Compliance</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-05-22 06:53:09</run_start>
+        <run_time>1969-12-31 14:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var gt = new GlideDateTime();
+
+var gr = new GlideRecord('x_msap2_csa_si_m2m_titles_title_holders');
+gr.addQuery('title.u_aemr_last_submitted','<',gt);
+gr.addQuery('title.u_aemr_next_due','<=',gt);
+gr.query();
+
+while (gr.next()) 
+{
+	// get recipient from title holder
+	var grNonCompliance = new GlideRecord('x_msap2_csa_si_inc_non_compl');
+	grNonCompliance.initialize();
+	
+	grNonCompliance.event_label = 'Non Compliance - AEMR Submission Elapsed';
+	grNonCompliance.non_compliance_type = 1;
+	grNonCompliance.non_compliance_sub_type = 2;
+	grNonCompliance.title = gr.title;
+	grNonCompliance.description = 'Non Compliance - AEMR Submission Elapsed';
+	grNonCompliance.description += '\n\n';
+	grNonCompliance.description += 'AEMR Last Submitted: ' + gr.title.u_aemr_last_submitted;
+	grNonCompliance.description += '\n';
+	grNonCompliance.description += 'AEMR Next Due: ' + gr.title.u_aemr_next_due;
+	grNonCompliance.description += '\n';
+	
+	grNonCompliance.insert();
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 12:44:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8424998bdb7eb200392b752dbf9619f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Generate AEMR Non Compliance</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sysauto_script_8424998bdb7eb200392b752dbf9619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 12:59:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_msap2_csa_si_aemr_reminder_letter</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <description/>
+        <event_name>x_msap2_csa_si.aemr_letter_issue</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>csaaudemo2@service-now.com</from>
+        <generation_type>event</generation_type>
+        <importance>high</importance>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="align: baseline;" title="" src="logo.pngx" alt="" align="baseline" border="" hspace="" vspace="" /></p>
+<p>Letter Number: ${number}</p>
+<p>Type: ${type.name}</p>
+<p>Recipient Name: ${u_recipient.name}</p>
+<p>Recipient Email: ${u_recipient.email}</p>
+<p>Title Holder: ${title_holder.display_name}</p>
+<p>AEMR Last Submitted: ${title.u_aemr_last_submitted}</p>
+<p>AEMR Next Due: ${title.u_aemr_next_due}</p>
+<p>Mine: ${title.u_mine}</p>
+<p>Region: ${title.u_region}</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[Letter Number: ${number}
+
+Type: ${type.name}
+
+Recipient Name: ${u_recipient.name}
+
+Recipient Email: ${u_recipient.email}
+
+Title Holder: ${title_holder.display_name}
+
+AEMR Last Submitted: ${title.u_aemr_last_submitted}
+
+AEMR Next Due: ${title.u_aemr_next_due}
+
+Mine: ${title.u_mine}
+
+Region: ${title.u_region}]]></message_text>
+        <name>Send AEMR Letter</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>title_holder.user,title_holder.company.contact,title_holder.company.u_email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>csaaudemo2@service-now.com</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate><![CDATA[Letter Number: ${number}
+Type: ${type.name}
+Recipient Name: ${u_recipient.name}
+Title Holder: ${title_holder.display_name}
+AEMR Last Submitted: ${title.u_aemr_last_submitted}
+AEMR Next Due: ${title.u_aemr_next_due}
+Mine: ${title.u_mine}]]></sms_alternate>
+        <style/>
+        <subject>AEMR Reminder Letter</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 12:23:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d3f4587db7eb200392b752dbf961949</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Send AEMR Letter</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sysevent_email_action_6d3f4587db7eb200392b752dbf961949</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 15:39:41</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

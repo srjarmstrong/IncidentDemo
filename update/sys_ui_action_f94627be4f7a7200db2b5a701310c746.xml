@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>generate_notice</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Generate Notice</name>
+        <onclick>generateReport()</onclick>
+        <order>100</order>
+        <script><![CDATA[function generateReport() 
+{
+	var noticeId = g_form.getUniqueValue();
+	// Notice Template
+	var reportTemplate = '376cd77a4f7a7200db2b5a701310c78c';
+	// Call ajax to ask the report to be generated
+	
+	var ajaxDoReport = new GlideAjax('NoticeGeneratorAjax');  
+	//ajaxDoReport.setScope('global');
+	ajaxDoReport.addParam('sysparm_name', 'generateReportAsyncNotice');
+	ajaxDoReport.addParam('sysparm_noticeId', noticeId);
+	ajaxDoReport.addParam('sysparm_reportTemplate', reportTemplate);
+	var progressBar = "<div class='progress'><div class='progress-bar progress-bar-striped active' style='width: 100%'>&nbsp;</div></div>";
+	g_form.addInfoMessage('Generating Notice...'  + progressBar);
+	
+	ajaxDoReport.getXMLAnswer(function(responseText) 
+	{
+	
+		var result = JSON.parse(responseText);
+		
+		if (!result) {
+			g_form.clearMessages();
+			g_form.addErrorMessage("Report generation failed - no reply from ServiceNOW on generate");
+		}
+		else if (!result.success) {
+			g_form.clearMessages();
+			g_form.addErrorMessage("Report generation failed - " + result.error);
+		}
+		else {
+			// Create a function to check the progress of the report since we may have to re-call it
+			var checkResult = function() 
+			{
+				// Call ajax back with the token we got from the DoReport to see if it's done
+				var ajaxCheckProgress = new GlideAjax('NoticeGeneratorAjax');
+				//ajaxCheckProgress.setScope('global');
+				ajaxCheckProgress.addParam('sysparm_name', 'checkReportAsyncProgress');
+				ajaxCheckProgress.addParam('sysparm_callbackToken', result.callbackToken);
+				ajaxCheckProgress.getXMLAnswer(function(responseText) 
+				{
+					var progressResult = JSON.parse(responseText);
+					if (!progressResult) {
+						g_form.clearMessages();
+						g_form.addErrorMessage("Report generation failed - no reply from ServiceNOW on progress check");
+					}
+					else if (!progressResult.success) {
+						g_form.clearMessages();
+						g_form.addErrorMessage("Report generation failed - " + result.error);
+					}
+					else {
+						if (!progressResult.complete) {
+							// we checked successfully but it's not done. Give it a short pause and check again
+							setTimeout(checkResult, 100);
+						}
+						else {
+							// Success & complete - we should have an attachment id for our report now
+							g_form.clearMessages();
+							g_form.addInfoMessage("Report generation complete: <a href='/sys_attachment.do?sys_id=" + progressResult.attachmentId + "'>Download Report</a>");
+						}
+					}
+				});
+			};
+			// See if the report is done
+			checkResult();
+		}
+	});
+
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 04:48:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f94627be4f7a7200db2b5a701310c746</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Generate Notice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_ui_action_f94627be4f7a7200db2b5a701310c746</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 05:55:43</sys_updated_on>
+        <table>x_msap2_csa_si_incident_notice</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

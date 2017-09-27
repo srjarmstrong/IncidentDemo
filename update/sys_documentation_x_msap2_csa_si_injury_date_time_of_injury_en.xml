@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="date_time_of_injury" label="Date/Time of Injury" language="en" table="x_msap2_csa_si_injury">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>date_time_of_injury</element>
+            <help/>
+            <hint/>
+            <label>Date/Time of Injury</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_injury</name>
+            <plural>Date/Time of Injuries</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-22 02:01:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0c018b7a4f3a7200db2b5a701310c7c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Date/Time of Injury</sys_name>
+            <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+            <sys_update_name>sys_documentation_x_msap2_csa_si_injury_date_time_of_injury_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-22 02:01:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

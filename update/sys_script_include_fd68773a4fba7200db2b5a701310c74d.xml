@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_msap2_csa_si.NoticeGeneratorAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>NoticeGeneratorAjax</name>
+        <script><![CDATA[var NoticeGeneratorAjax = Class.create();
+NoticeGeneratorAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	generateReportAsyncNotice: function() {
+		return this._passthrough('_generateReportAsyncNotice', ['noticeId','reportTemplate']);
+	},
+	_generateReportAsyncNotice: function(noticeId,reportTemplate) 
+	{
+
+		var gr = new GlideRecord('x_msap2_csa_si_incident_notice');
+		
+		if (gr.get(noticeId)) 
+		{
+
+			
+			// Generate the report
+			var grReportDateSet = new GlideRecord('x_msap2_report_gen_report_data_set');
+			grReportDateSet.get(reportTemplate);
+			
+			var dataSetName = grReportDateSet.getValue('name');
+			
+			var dataSourceQuery = 'sys_id=' + gr.sys_id;
+			var nowDate = new GlideDate().getDisplayValue();
+			var orderBy = 'number';
+			var fileName = 'NOTICE-' + gr.number + '-' + nowDate + '.pdf';
+			var attachmentTargetTable = 'x_msap2_csa_si_incident_notice';
+			var attachmentTargetId = gr.sys_id;
+			
+			
+			
+			var mgr = new x_msap2_report_gen.ReportGenerator();
+			
+			var result = mgr.generateReportAsync(dataSetName, dataSourceQuery, orderBy, fileName, attachmentTargetTable, attachmentTargetId);
+			
+			if (result && result.success) 
+			{
+				// Update the notice
+				gr.status = 2;
+				gr.update();
+			} 
+		}
+		return result;
+	},
+	checkReportAsyncProgress: function() {
+		return this._passthrough('_checkReportAsyncProgress', ['callbackToken']);
+	},
+	_checkReportAsyncProgress: function(callbackToken) {
+		var mgr = new x_msap2_report_gen.ReportGenerator();
+		return mgr.checkReportAsyncProgress(callbackToken);
+	},
+	_passthrough: function(call, parms) {
+		var args = [];
+		var mgr = this;
+		for (var i=0; i < parms.length; i++) {
+			var parmValue;
+			if (parms[i] && typeof(parms[i].staticValue) != 'undefined')
+				parmValue = parms[i].staticValue;
+			else {
+				parmValue = this.getParameter('sysparm_' + (parms[i].name || parms[i])) + '';
+				if (parms[i].format) parmValue = parms[i].format(parmValue);
+			}
+			args.push(parmValue);
+		}
+		
+		var answer = (new global.JSON()).encode(mgr[call].apply(mgr, args));
+
+		return answer;
+	},
+    type: 'NoticeGeneratorAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 06:03:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fd68773a4fba7200db2b5a701310c74d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NoticeGeneratorAjax</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_script_include_fd68773a4fba7200db2b5a701310c74d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 16:54:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

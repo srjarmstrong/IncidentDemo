@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Titles Title Holders M2M" max_length="40" name="x_msap2_csa_si_m2m_titles_title_holders" type="collection">
+        <element label="Reminder Last Sent" max_length="40" name="reminder_last_sent" type="glide_date"/>
+        <element label="Title" max_length="32" name="title" reference="x_msap2_csa_si_title" type="reference"/>
+        <element label="Title Holder" max_length="32" name="title_holder" reference="x_msap2_csa_si_title_holder" type="reference"/>
+        <index name="index">
+            <element name="title"/>
+        </index>
+        <index name="index2">
+            <element name="title_holder"/>
+        </index>
+    </element>
+</database>

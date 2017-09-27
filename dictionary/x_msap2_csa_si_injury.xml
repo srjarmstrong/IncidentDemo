@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Injury" max_length="40" name="x_msap2_csa_si_injury" sizeclass="2" type="collection">
+        <element label="Date/Time of Injury" max_length="40" name="date_time_of_injury" type="glide_date_time"/>
+        <element label="Event Label" max_length="40" name="event_label" type="string"/>
+        <element label="Injured Person" max_length="32" name="injured_person" reference="sys_user" type="reference"/>
+        <element choice="1" label="Nature of Injury" max_length="40" name="nature_of_injury" type="choice">
+            <choice>
+                <element label="Injury 1" sequence="0" value="Injury 1"/>
+                <element label="Injury 2" sequence="1" value="Injury 2"/>
+                <element label="Injury 3" sequence="2" value="Injury 3"/>
+            </choice>
+        </element>
+        <element label="Safety Incident" max_length="32" name="safety_incident" reference="x_msap2_csa_si_safety_incident" type="reference"/>
+    </element>
+</database>

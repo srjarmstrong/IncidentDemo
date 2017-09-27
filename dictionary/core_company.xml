@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true" create_roles="user_admin" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element label="Title Holder" max_length="40" name="x_msap2_csa_si_title_holder" type="boolean"/>
+    </element>
+</database>

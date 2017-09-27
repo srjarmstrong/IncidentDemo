@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="77a88cfe4fb27200db2b5a701310c75a" sys_domain="global" table="x_msap2_csa_si_safety_incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fa88cfe4fb27200db2b5a701310c75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_msap2_csa_si_safety_incident" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">77a88cfe4fb27200db2b5a701310c75a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">211ec2ea4fbe3200db2b5a701310c702</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ba88cfe4fb27200db2b5a701310c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_msap2_csa_si_safety_incident" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">77a88cfe4fb27200db2b5a701310c75a</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">bba88cfe4fb27200db2b5a701310c758</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-22 02:18:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0b4cffa4f3a7200db2b5a701310c7ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_msap2_csa_si_safety_incident" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">77a88cfe4fb27200db2b5a701310c75a</sys_ui_form>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">94b4cffa4f3a7200db2b5a701310c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-22 02:18:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-22 02:18:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecb4cffa4f3a7200db2b5a701310c7bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_msap2_csa_si_safety_incident" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">77a88cfe4fb27200db2b5a701310c75a</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_msap2_csa_si_safety_incident" sys_domain="global" view="Default view">5cb4cffa4f3a7200db2b5a701310c785</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-22 02:18:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_msap2_csa_si_safety_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77a88cfe4fb27200db2b5a701310c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_msap2_csa_si_safety_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_77a88cfe4fb27200db2b5a701310c75a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

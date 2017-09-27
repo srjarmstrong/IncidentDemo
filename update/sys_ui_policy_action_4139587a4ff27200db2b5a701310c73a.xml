@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>contact_type</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-21 13:48:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4139587a4ff27200db2b5a701310c73a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>contact_type</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4139587a4ff27200db2b5a701310c73a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-21 13:48:46</sys_updated_on>
+        <table>x_msap2_csa_si_safety_incident</table>
+        <ui_policy display_value="Mandatory Fields Fulfiller View">02e8147a4ff27200db2b5a701310c705</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

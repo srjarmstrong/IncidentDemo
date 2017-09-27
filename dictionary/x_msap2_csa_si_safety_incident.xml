@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Incident Notification" max_length="40" name="x_msap2_csa_si_safety_incident" sizeclass="13" type="collection">
+        <element label="Mine" max_length="32" name="mine" reference="x_msap2_csa_si_mine" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="u_close_code" type="string">
+            <choice>
+                <element label="Closed - No Action" sequence="0" value="Closed - No Action"/>
+                <element label="Closed - Monitor" sequence="1" value="Closed - Monitor"/>
+                <element label="Closed - Treated" sequence="2" value="Closed - Treated"/>
+                <element label="Closed - Unresolved" sequence="3" value="Closed - Unresolved"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Event Label" max_length="40" name="u_event_label" type="string"/>
+        <element label="Date/Time of Incident" max_length="40" name="u_incident_datetime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_inc_classification" type="string">
+            <choice>
+                <element label="Critical" sequence="0" value="1"/>
+                <element label="Severe" sequence="1" value="2"/>
+                <element label="Elevated" sequence="2" value="3"/>
+                <element label="Standard" sequence="3" value="4"/>
+                <element label="Monitoring" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason" max_length="40" name="u_stat_reason" type="string">
+            <choice>
+                <element label="S14" sequence="0" value="S14"/>
+                <element label="Cl128" sequence="1" value="Cl128"/>
+            </choice>
+        </element>
+    </element>
+</database>

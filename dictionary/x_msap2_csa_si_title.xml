@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmn_location" label="Title" max_length="40" name="x_msap2_csa_si_title" type="collection">
+        <element label="AEMR Last Submitted" max_length="40" name="u_aemr_last_submitted" type="glide_date"/>
+        <element label="AEMR Next Due" max_length="40" name="u_aemr_next_due" type="glide_date"/>
+        <element label="Mine" max_length="32" name="u_mine" reference="x_msap2_csa_si_mine" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Region" max_length="40" name="u_region" type="string">
+            <choice>
+                <element label="Northern" sequence="0" value="Northern"/>
+                <element label="Western" sequence="1" value="Western"/>
+                <element label="Eastern" sequence="2" value="Eastern"/>
+                <element label="Southern" sequence="3" value="Southern"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="u_mine"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="dms_document" label="AEMR Reminder Letter" max_length="40" name="x_msap2_csa_si_aemr_reminder_letter" type="collection">
+        <element label="Sent AEMR Letter" max_length="40" name="sent_reminder" type="boolean"/>
+        <element label="Title" max_length="4000" name="title" reference="x_msap2_csa_si_title" type="glide_list"/>
+        <element label="Title Holder" max_length="32" name="title_holder" reference="x_msap2_csa_si_title_holder" type="reference"/>
+        <element label="Recipient" max_length="32" name="u_recipient" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_recipient"/>
+        </index>
+        <index name="index2">
+            <element name="title_holder"/>
+        </index>
+    </element>
+</database>

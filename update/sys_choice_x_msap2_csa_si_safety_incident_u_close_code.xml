@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_close_code" table="x_msap2_csa_si_safety_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed - No Action</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_safety_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cb88cfe4fb27200db2b5a701310c7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:37</sys_updated_on>
+            <value>Closed - No Action</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed - Monitor</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_safety_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88b88cfe4fb27200db2b5a701310c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:37</sys_updated_on>
+            <value>Closed - Monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed - Treated</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_safety_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0b88cfe4fb27200db2b5a701310c7ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:37</sys_updated_on>
+            <value>Closed - Treated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed - Unresolved</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_safety_incident</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cb88cfe4fb27200db2b5a701310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:37</sys_updated_on>
+            <value>Closed - Unresolved</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_close_code</element>
+            <name>x_msap2_csa_si_safety_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 12:36:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>44b88cfe4fb27200db2b5a701310c7cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_close_code</sys_name>
+            <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+            <sys_update_name>sys_choice_x_msap2_csa_si_safety_incident_u_close_code</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 12:36:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Incident Process KPIs">5c3c2183db32f200392b752dbf961975</grid_canvas>
+        <height>11</height>
+        <portal_widget display_value="Created 17/11/2015 23:44:46">1b86ae55eb7302001e68286b1206fedf</portal_widget>
+        <posx>4</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-22 14:29:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>943ce583db32f200392b752dbf96196f</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>5c3c2183db32f200392b752dbf961975</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_943ce583db32f200392b752dbf96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 14:30:23</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+</record_update>

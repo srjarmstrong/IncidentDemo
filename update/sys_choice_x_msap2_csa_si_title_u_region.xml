@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_region" table="x_msap2_csa_si_title" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Northern</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_title</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 11:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>333477264fb27200db2b5a701310c7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 11:07:18</sys_updated_on>
+            <value>Northern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Western</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_title</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 11:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff3477264fb27200db2b5a701310c7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 11:07:18</sys_updated_on>
+            <value>Western</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eastern</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_title</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 11:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb3477264fb27200db2b5a701310c7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 11:07:18</sys_updated_on>
+            <value>Eastern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Southern</label>
+            <language>en</language>
+            <name>x_msap2_csa_si_title</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 11:07:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f73477264fb27200db2b5a701310c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 11:07:18</sys_updated_on>
+            <value>Southern</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_region</element>
+            <name>x_msap2_csa_si_title</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-21 11:07:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bb3477264fb27200db2b5a701310c7ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_region</sys_name>
+            <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+            <sys_update_name>sys_choice_x_msap2_csa_si_title_u_region</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-21 11:07:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

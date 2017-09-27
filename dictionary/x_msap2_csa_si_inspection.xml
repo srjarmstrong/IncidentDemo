@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Inspection" max_length="40" name="x_msap2_csa_si_inspection" sizeclass="6" type="collection">
+        <element label="Event Label" max_length="40" name="event_label" type="string"/>
+        <element label="Safety Incident" max_length="32" name="safety_incident" reference="x_msap2_csa_si_safety_incident" type="reference"/>
+        <element label="Inspection Date/Time" max_length="40" name="u_inspection_datetime" type="glide_date_time"/>
+    </element>
+</database>

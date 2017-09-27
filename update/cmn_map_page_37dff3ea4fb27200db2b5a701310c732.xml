@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>NSW, Australia</center_address>
+        <center_latitude>-31.2532183</center_latitude>
+        <center_longitude>146.921099</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>6</initial_zoom>
+        <name>x_msap2_csa_si_active_safety_incidents</name>
+        <overview>true</overview>
+        <refresh_on_zoom>true</refresh_on_zoom>
+        <script><![CDATA[var gr = new GlideRecord('x_msap2_csa_si_safety_incident');
+gr.addQuery('active',true);
+gr.query();
+
+while (gr.next()) 
+{
+	if(gr.mine.latitude && gr.mine.longitude)
+	{
+		var iconUrlBase = 'http://labs.google.com/ridefinder/images/';
+		var iconImg = 'mm_20_green.png';
+		var classificationRef= parseInt(gr.u_inc_classification + '');
+		switch (classificationRef)
+		{
+			case 1:
+				iconImg = 'mm_20_red.png';
+				break;
+			case 2:
+				iconImg = 'mm_20_orange.png';
+				break;
+			case 3:
+				iconImg = 'mm_20_yellow.png';
+				break;
+			case 4:
+				iconImg = 'mm_20_brown.png';
+				break;
+			case 5:
+				iconImg = 'mm_20_green.png';
+				break;
+			default:
+				iconImg = 'mm_20_gray.png';
+		}
+		var iconUrl = iconUrlBase + iconImg;
+		var item = map.addItem(gr);
+		item.latitude = String(gr.mine.latitude);
+		item.longitude = String(gr.mine.longitude);
+		item.dialog_title = gr.getDisplayValue();
+		item.icon = iconUrl;
+		item.icon_width = '16';
+	    item.icon_height = '24';
+	}
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>active_safety_incidents</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-21 12:16:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>37dff3ea4fb27200db2b5a701310c732</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>x_msap2_csa_si_active_safety_incidents</sys_name>
+        <sys_package display_value="Safety Incidents" source="x_msap2_csa_si">d9ed42ea4fbe3200db2b5a701310c76d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety Incidents">d9ed42ea4fbe3200db2b5a701310c76d</sys_scope>
+        <sys_update_name>cmn_map_page_37dff3ea4fb27200db2b5a701310c732</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-22 06:31:52</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>
